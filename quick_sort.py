@@ -1,8 +1,8 @@
 #quick sort
+
 def quickSort(my_array):
     qshelper(my_array, 0, len(my_array) - 1)
     return my_array
-
 def qshelper(my_array, start, end):
     if start >= end:
         return
